@@ -21,7 +21,7 @@ The framework contains four main components:
 
 ## Results
 
-We conduct experiments on zero-shot image classification (ImageNet, ImageNet-A, ImageNet-V2, ImageNet-R, ImageNet-Sketch, and 10 FGVC datasets), image-text retrieval (MS-COCO), and semantic segmentation (Pascal VOC2012) tasks. CAPO improves the edge model performance by 7.9% across 16 datasets; on MS-COCO retrieval, it improves R@1 by 5.13% for text-to-image retrieval and 4.30% for image-to-text retrieval; in the multi-task setting, it also improves semantic segmentation performance by 7.21% mIoU. For efficiency evaluation, CAPO shows a clear end-to-end latency advantage over AMS [1] under weak-network bandwidths, as shown below.
+We conduct experiments on zero-shot image classification (ImageNet, ImageNet-A, ImageNet-V2, ImageNet-R, ImageNet-Sketch, and 10 FGVC datasets), image-text retrieval (MS-COCO), and semantic segmentation (Pascal VOC2012) tasks, using CLIP-RN50 as the edge-side model and CLIP-ViT-B/16 as the cloud-side model. CAPO improves the edge model performance by 7.9% across 16 datasets; on MS-COCO retrieval, it improves R@1 by 5.13% for text-to-image retrieval and 4.30% for image-to-text retrieval; in the multi-task setting, it also improves semantic segmentation performance by 7.21% mIoU. For efficiency evaluation, CAPO shows a clear end-to-end latency advantage over AMS [1] under weak-network bandwidths, as shown below.
 
 ![Latency under weak network settings](figures/latency.png)
 
