@@ -2,6 +2,8 @@
 
 **Cloud-Edge Collaborative Adaptation for Vision-Language Model via Compact Prompt Optimization**
 
+Accepted by IEEE Transactions on Multimedia
+
 ## Abstract
 
 While vision-language foundation models have significantly improved performance and broadened application prospects, deploying these models on edge devices is impractical due to computational constraints. To address this challenge and leverage the power of vision-language foundation models alongside the flexibility and efficiency of lightweight models, we propose a cloud-edge collaborative framework that jointly optimizes both models for test-time adaptation through compact prompt optimization. Specifically, we enable edge devices to upload compressed data collected locally, allowing cloud-based large vision-language models to provide knowledge for adapting to target domain distributions via text prompt tuning. The refined knowledge is then distilled back to lightweight models on the edge, equipping them with enhanced capability to manage diverse distribution shifts. The proposed **C**ollaborative **A**daptation via compact **P**rompt **O**ptimization (CAPO) framework is highly general and can be flexibly applied to various tasks such as classification and retrieval. Extensive experiments on 16 datasets show that our framework enhances edge model performance by 7.9% and requires only 0.1% transmitted data volume, contributing to coding for AI tasks, and is also essential for edge-end applications.
